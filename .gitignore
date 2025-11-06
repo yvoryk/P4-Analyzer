@@ -1,0 +1,28 @@
+# Build directories
+build/
+bin/
+out/
+.gradle/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Compiled files
+*.class
+
+# Test results
+build/
+test-results/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other project directories
+HW1/
+P1 Pixar/
+P2A Parser [Expressions]/
+Project3_Interpreter-main/
+
