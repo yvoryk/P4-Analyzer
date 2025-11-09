@@ -429,8 +429,8 @@ public final class Analyzer implements Ast.Visitor<Void> {
         Environment.Type rightType = ast.getRight().getType();
         
         switch (operator) {
-            case "&&":
-            case "||":
+            case "AND":
+            case "OR":
                 // Both operands must be Boolean
                 if (!leftType.equals(Environment.Type.BOOLEAN) || !rightType.equals(Environment.Type.BOOLEAN)) {
                     throw new RuntimeException("Logical operators require Boolean operands");
